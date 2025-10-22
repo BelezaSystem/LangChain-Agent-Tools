@@ -1,0 +1,18 @@
+[project]
+name = "llm"
+version = "0.1.0"
+description = "Demo usando LangChain com ferramentas e GPT mini"
+requires-python = ">=3.10"
+dependencies = [
+    "langchain",
+    "langchain-openai",
+    "langchain-ollama",
+    "python-dotenv",
+    "rich",
+    "pydantic",
+    "gradio",
+]
+
+[tool.uv]
+# Você poderá instalar com: `uv sync`
+# E executar com: `uv run main.py`
